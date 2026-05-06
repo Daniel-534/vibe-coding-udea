@@ -20,3 +20,33 @@ Registro de sesiones del semillero.
 
 - Daniel dice que le gustarpia crear flujos de trabajo mas elaborados y que no sea simplemente enviar prompts.
 
+## 2026-05-06
+
+- Merge del PR de Dani donde explica el flujo de trabajo para la creación de material de estudio.
+
+- Santiago presenta su flujo de trabajo para creacion de prototipos
+
+- Primer caso, Lorenz AI en clude design, articulando Google Stich, Gemini y Claude Design
+
+- Caso: Sistema de control de redes contra incendios, articulando Figma, Gemini y Claude Design.
+
+- Idea: Taller sobre economia de tokens
+
+- Se presenta Erix y GDC Colombia, vistazo a como funciona GDC
+
+- Nos presenta las proximas actividades de GDC Colombia.
+
+- Hablamos sobre las posibilidades para realizar un evento de "Build with AI" en la universidad.
+
+- Quedamos pendientes de coordinar fecha y logística para el evento de "Expert talks" en la universidad para no cruzar con examenes finales.
+
+- Erix nos habla sobre como se usa la IA en Mercado Libre desde su experiencia persona: Usan SDD; Skills, MCP, todo con Claude Code exclusivamente. La IA es requisito dentro de la compañía. Orquestan equipos de agentes para desarrollar segun responsabilidades.
+
+- Meli usa diferentes plantilla de SDD.
+
+    - La primera desarrolla planes donde el agente hace preguntas al product owner.
+    - La segunda plantilla detalla las espeficaciones de tecnologia.
+    - La tercera plantilla incluye los detalles de la especificacion para cada feature. 
+    - Para aceptar el codigo, usan skills en claude para diferentes plataformas, para android por ejemplo un skill que presenta los criterios de aceptacion adaptados a android. Asegurando buenas practicas, uso del framework, seguridad, etc.
+
+- Pendiente: Coordinar taller de google dev experts sobre creacion de agentes con gemini
