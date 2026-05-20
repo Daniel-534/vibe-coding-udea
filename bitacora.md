@@ -50,3 +50,12 @@ Registro de sesiones del semillero.
     - Para aceptar el codigo, usan skills en claude para diferentes plataformas, para android por ejemplo un skill que presenta los criterios de aceptacion adaptados a android. Asegurando buenas practicas, uso del framework, seguridad, etc.
 
 - Pendiente: Coordinar taller de google dev experts sobre creacion de agentes con gemini
+
+## 2026-05-13
+
+- Hablamos sobre google dev exper talk, agentic flutter y angular. Aula 21 - 326 ingeniera 20 junio 10 am a 2 pm
+
+> Enviar logo universidad para que ellos compartan comunicaciones y mandar correo oficial a facultades. 
+
+- Sandusky expone su flujo de trabajo creando el curso de programacion creativa : artilugiotaller.com
+
