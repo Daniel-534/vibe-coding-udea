@@ -68,6 +68,7 @@ Registro de sesiones del semillero.
 - **Discusión Técnica y Referencias**
   - Análisis del consumo de tokens y el futuro de la infraestructura de IA basado en el ensayo [Situational Awareness](https://situational-awareness.ai/).
   - Introducción a la metodología *Spec-Driven Development* (SDD) mediante el repositorio curado [Awesome Spec-Driven Development](https://github.com/Engineering4AI/awesome-spec-driven-development).
+  - Exploración de [agents.md](https://agents.md/) como una fuente de referencia clave para consultar otros ejemplos prácticos de flujos de trabajo (*workflows*) de agentes estructurados en Markdown.
   - Revisión del framework [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD?tab=readme-ov-file#readme), enfocado en la orquestación de agentes para la creación de agencias de desarrollo autónomas.
   - Estudio de caso práctico del repositorio de **Gotalab**, analizando el flujo de trabajo para desglosar grandes iniciativas (*Break down a large initiative*) en su guía de documentación técnica [spec-driven.md](https://github.com/gotalab/cc-sdd/blob/main/docs/guides/spec-driven.md).
 - **Líneas de Investigación Propuestas**
