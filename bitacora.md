@@ -1,7 +1,34 @@
 # Bitácora
 
 Registro de sesiones del semillero.
-## Sesión 5 2026-05-20
+
+## Sesión 6: 2026-05-27
+
+- **Introducción a RAG y Predicción de Tokens**
+  - Explicación de la arquitectura RAG (Retrieval-Augmented Generation) como método para inyectar contexto externo a los modelos de lenguaje.
+  - Análisis por parte de Andrés sobre la mecánica fundamental de los LLMs: cómo los modelos calculan probabilidades para predecir el token más cercano/probable en una secuencia de texto.
+- **Orquestación Visual con FlowiseAI**
+  - Revisión de [FlowiseAI](https://flowiseai.com/) como herramienta de código abierto y ejecución local para coordinar múltiples agentes en una sola interfaz.
+  - Exploración de las herramientas clave dentro del ecosistema de Flowise:
+    - **Chatflows:** Diseños secuenciales para flujos de conversación e interacciones guiadas.
+    - **Agentflows:** Configuración avanzada de agentes autónomos con toma de decisiones complejas.
+    - **Marketplaces:** Uso de plantillas (*templates*) preconfiguradas y públicas de la comunidad para acelerar el desarrollo.
+  - Discusión sobre el cambio de paradigma: pasar de trabajar saltando entre múltiples ventanas simultáneas a centralizar tareas mediante flujos de agentes automatizados.
+  - Invitación abierta al semillero para experimentar con la construcción y ensamble visual de pipelines de RAG dentro de FlowiseAI https://github.com/flowiseai/flowise
+- **Modelos Open Source y Contenido Multimedia**
+  - Debate sobre los casos de uso actuales para la producción audiovisual utilizando modelos alojados en Hugging Face (considerado el "GitHub de los modelos de IA").
+- **Casos de Éxito y Aplicaciones de Negocio (Presentación de Santiago)**
+  - **Oportunidad de Mercado:** Análisis de la creación e implementación de RAGs personalizados como un modelo de negocio de alto valor para empresas que necesitan consultar de forma privada sus propios datos históricos y operativos.
+  - **RAG + LMS:** Demostración práctica de un sistema RAG desarrollado por Santiago para un cliente real, integrado con un proyecto de *Learning Management System* (LMS) orientado a optimizar la capacitación y procesos en empresas.
+  - **Sintaxis y CLI:** Muestra de cómo estructurar información mediante archivos YAML para mantenerla en un formato legible por humanos y procesable por máquinas. Santiago mostró el desarrollo de una interfaz de línea de comandos (CLI) que permite interactuar con toda esta documentación de procesos directamente desde la terminal, conviviendo con los formatos tradicionales de Google Docs.
+  - **Monitoreo de Costos:** Santiago mostró la extensión de [AI Usage](https://chromewebstore.google.com/detail/cciheeifdkaaocckeeefebhhhkaecpmm?utm_source=item-share-cb) para auditar y visualizar en tiempo real el consumo de tokens gastados en la ejecución de los modelos.
+- **Línea de Investigación: Lenguajes Sintéticos y Optimización de Tokens**
+  - Origen del debate: Ejercicio práctico donde Andrés instruyó al modelo usando *"Caveman English"* (inglés de cavernícola), evidenciando cómo la reducción de complejidad gramatical optimiza drásticamente el consumo de tokens.
+  - Formulación de pregunta de investigación por parte del Profe Edison: *¿Cómo pueden los agentes de IA diseñar y adoptar sus propios lenguajes o protocolos de comunicación sintéticos para maximizar la compresión semántica y minimizar los costos de tokens en entornos multi-agente?*
+- **Proyección Estratégica (Próximo Semestre)**
+  - Propuesta del Profe Edison para introducir el uso básico de [n8n](https://n8n.io/) en el siguiente ciclo. Esto permitirá a los asistentes dominar la lógica de automatización tradicional y comprender mejor las ventajas y la potencia de herramientas nativas de IA como FlowiseAI.
+
+## Sesión 5: 2026-05-20
 
 - **Visión Estratégica (Próximo Semestre)**
   - Propuesta del Profe Edison para estructurar el Semillero como un grupo exclusivo por invitación.
