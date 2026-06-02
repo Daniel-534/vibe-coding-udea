@@ -106,3 +106,23 @@ Registro de sesiones del semillero.
 - Presentación de asistentes.
 - Acuerdo de flujo de trabajo: Trunk-based en GitHub con PR's.
 - Propuesta de trabajo: Estructura de carpetas individuales en `proyectos/`.
+- **Visión Estratégica (Próximo Semestre)**
+  - Propuesta del Profe Edison para estructurar el Semillero como un grupo exclusivo por invitación.
+  - Debate sobre la gestión del tiempo y la viabilidad de extender la duración de las sesiones más allá de una hora (planteado por Santiago).
+  - Enfoque en rutas en aprendizaje a través de los cursos oficiales de Claude.
+- **Discusión Técnica y Referencias**
+  - Análisis del consumo de tokens y el futuro de la infraestructura de IA basado en el ensayo [Situational Awareness](https://situational-awareness.ai/).
+  - Introducción a la metodología *Spec-Driven Development* (SDD) mediante el repositorio curado [Awesome Spec-Driven Development](https://github.com/Engineering4AI/awesome-spec-driven-development).
+  - Exploración de [agents.md](https://agents.md/) como una fuente de referencia clave para consultar otros ejemplos prácticos de flujos de trabajo (*workflows*) de agentes estructurados en Markdown.
+  - Revisión del framework [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD?tab=readme-ov-file#readme), enfocado en la orquestación de agentes para la creación de agencias de desarrollo autónomas.
+  - Estudio de caso práctico del repositorio de **Gotalab**, analizando el flujo de trabajo para desglosar grandes iniciativas (*Break down a large initiative*) en su guía de documentación técnica [spec-driven.md](https://github.com/gotalab/cc-sdd/blob/main/docs/guides/spec-driven.md).
+- **Líneas de Investigación Propuestas**
+  - **Optimización Sintáctica:** Análisis comparativo de eficiencia en consumo de tokens y precisión estructural entre formatos YAML y Markdown (`.md`).
+  - **Agentes de Validación:** Estudiar la necesidad de "Agentes Supervisores" en circuitos cerrados de retroalimentación para auditar la precisión del código en SDD.
+  - **Taxonomía de Agentes (Vibecoding Core):** Delimitación conceptual y operativa entre un *Skill*, un *MCP (Model Context Protocol)* y un *Role*.
+- **Filosofía y Cultura**
+  - Reflexión sobre [The Way of Code](https://wayofcode.com/) (inspirado en Rick Rubin), adoptando el rol del programador actual como un productor creativo y editor de contexto. Esta discusión siembra la semilla para el futuro **Manifiesto de Vibecoding UdeA**.
+- **Tareas y Siguientes Pasos**
+  - Definir criterios de selección para el formato por invitación.
+  - Evaluar el nuevo horario para las sesiones prácticas.
+  - Diseñar el entorno de pruebas para experimentar con las líneas de investigación planteadas.
