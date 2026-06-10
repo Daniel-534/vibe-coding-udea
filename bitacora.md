@@ -2,6 +2,27 @@
 
 Registro de sesiones del semillero.
 
+## Sesión 7: 2026-06-10
+
+- Juan David presenta las diferencias conceptuales entre MCP, Skills y Roles.
+
+- Edison destaca la importancia de pensar en cómo reproducir los resultados obtenidos con IA. Queda pendiente para Juan David revisar y documentar cómo Claude generó la presentación.
+
+- Santiago comenta cómo el vibecoding se está democratizando al punto de hacerse desde el celular.
+
+- Yuri comparte su experiencia desarrollando en una empresa: construyó una aplicación en Flutter en 5 días, un proceso que antes tomaba meses. La lanzaron rápidamente a un grupo de WhatsApp de 400 gestores turísticos. Las 45 primeras descargas sobrecargaron el backend desplegado en un Droplet — un buen problema para tener al inicio. La IA ayudó a solucionar el problema de escala directamente en el servidor.
+
+- Yuri también presenta [RASA](https://legacy-docs-oss.rasa.com/docs/rasa/), el framework de NLP con el que trabajó su equipo. Explicó su arquitectura:
+
+  - **Intents**: definen la intención del usuario (ej. "balance"). RASA permite visualizar la distancia lingüística entre ejemplos de un mismo intent — mostraron el caso con vocabulario del sector turístico (RNT - Registro Nacional de Turismo).
+  - **stories.yml**: reglas que rigen el flujo de conversación a partir de los intents.
+  - **responses.yml**: respuestas asociadas a cada flujo.
+  - **actions.yml**: conecta el chatbot con el backend, donde vive la lógica de negocio. La comunicación con las bases de datos se hace a través de sockets.
+  - El equipo analiza las preguntas reales de los gestores turísticos para refinar y clasificar los intents.
+  - Demo de los comandos `rasa train` y `rasa shell` para entrenar el modelo y probarlo en consola.
+
+- Edison propone la posibilidad de participar en el [Gemini X Prize](https://www.geminixprize.com) y lanza la pregunta al grupo.
+
 ## Sesión 6: 2026-05-27
 
 - **Introducción a RAG y Predicción de Tokens**
